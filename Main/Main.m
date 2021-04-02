@@ -1,5 +1,7 @@
 % 该函数用于生成大量市场出清场景
 % bid矩阵为2*6矩阵，1st行为二次项系数，2nd行为一次项系数，6列代表6个机组
+% % % % % You are free to use this code but we do not provide any service for this code % % % % %
+
 clear;clc;
 res = loadcase('case30');
 bid = [res.gencost(:,5)'; res.gencost(:,6)']; %初始成本报价
